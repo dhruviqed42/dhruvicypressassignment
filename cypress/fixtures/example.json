@@ -1,0 +1,12 @@
+{
+  "username": "test101@mailinator.com",
+  "password": "test1234",
+  "invalidusername": "test@mailinator.com",
+  "invalidpassword": "test1234",
+  "wrongforgetemail": "test101@mailiantor.com",
+  "correctforgetemail": "test101@mailinator.com",
+  "username1": "standard_user",
+  "password1": "secret_sauce",
+  "productname": "Sauce Labs Onesie"
+}
+
