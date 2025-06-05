@@ -12,7 +12,7 @@ module.exports = defineConfig({
       // implement node event listeners here
     },
     specPattern: 'cypress/Integration/examples/*.js',
-    specPattern: 'cypress/e2e/exCMS/dhruvi_assignment.cy.js'
+    specPattern: 'cypress/e2e/exCMS/*.js'
   },
   reporter: 'mochawesome',
   reporterOptions: {
