@@ -31,3 +31,4 @@
     cy.get('#postal-code').type('380005')
     cy.contains('Continue').click()
 })*/
+

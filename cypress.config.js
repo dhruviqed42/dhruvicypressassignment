@@ -9,11 +9,17 @@ module.exports = defineConfig({
   e2e: {
     setupNodeEvents(on, config) {
      return config;
-      // implement node event listeners here
+      // implement node event listeners here 
     },
-    specPattern: 'cypress/Integration/examples/*.js',
-    specPattern: 'cypress/e2e/exCMS/*.js'
+   
+    //specPattern: 'cypress/Integration/examples/*.js',
+    //specPattern: 'cypress/e2e/exCMS/*.js'
+    specPattern: 'cypress/e2e/**/*.js'
+    //specPattern: 'cypress/e2e/**/*.cy.{js,ts}'
+    
+    
   },
+
   reporter: 'mochawesome',
   reporterOptions: {
     reportDir: 'cypress/reports',
@@ -23,4 +29,6 @@ module.exports = defineConfig({
   },
   video: true,
   screenshotOnRunFailure: true
+
+  
 });
